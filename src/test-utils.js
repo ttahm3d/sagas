@@ -2,6 +2,7 @@ import React from "react";
 import { render as rtlRender } from "@testing-library/react";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
+import store from "./store";
 // Import your own reducer
 // import userReducer from "../userSlice";
 import rootReducer from "./redux";

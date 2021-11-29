@@ -1,6 +1,4 @@
-import { FETCH_TODOS } from "../constants";
-
-const initialState = {
+export const initialState = {
 	todos: [],
 };
 
